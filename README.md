@@ -32,6 +32,7 @@ git clone https://github.com/DingzhiboMike/corp-rpg.git ~/.claude/skills/corp-rp
 - `references/debrief-scoring.md`
 - `references/group-mode.md`
 - `references/resolution-engine.md`
+- `references/role-packs.md`
 
 ## Лицензия
 
