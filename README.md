@@ -9,6 +9,7 @@
 - Потренировать переговоры, приоритизацию, работу с данными, стрессоустойчивость
 - Провести деловую игру для команды или менторскую сессию
 - Отработать рабочий кейс в игровой форме
+- Просто оторваться: режим «Отгул» — пятница, в 18:00 отпуск, цель — уйти, не закрыв ни одной задачи. Хами, саботируй, кринжуй — мир ответит
 
 Не подходит для статических кейсов без интерактива и фэнтези-игр.
 
@@ -29,6 +30,7 @@ git clone https://github.com/DingzhiboMike/corp-rpg.git ~/.claude/skills/corp-rp
 - `SKILL.md`
 - `references/content-banks.md`
 - `references/continuity.md`
+- `references/day-off-mode.md`
 - `references/debrief-scoring.md`
 - `references/group-mode.md`
 - `references/resolution-engine.md`
