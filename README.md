@@ -27,14 +27,21 @@ git clone https://github.com/DingzhiboMike/corp-rpg.git ~/.claude/skills/corp-rp
 
 ## Состав
 
-- `SKILL.md`
-- `references/content-banks.md`
-- `references/continuity.md`
-- `references/debrief-scoring.md`
-- `references/fuck_off-mode.md`
-- `references/group-mode.md`
-- `references/resolution-engine.md`
-- `references/role-packs.md`
+`SKILL.md` — тонкое ядро: инварианты игры и таблица «что читать и когда». Остальное подгружается по фазе сессии:
+
+```
+SKILL.md
+references/
+  start/    onboarding.md, cold-open.md
+  play/     scene-loop.md, resolution.md, chronicle.md
+  finale/   crisis-thread.md, wrap-up.md, debrief-scoring.md
+  world/    banks.md, npcs.md, roles/ (_index, product-marketing, sales,
+            support, hr, dev, analytics, custom)
+  modes/    group-mode.md, continuity.md, fuck_off-mode.md
+scripts/check_refs.py   проверка ссылок и размера SKILL.md
+```
+
+В сессии читается только нужная фаза и один пакет роли, поэтому контекст не забивается всем сразу.
 
 ## Лицензия
 
